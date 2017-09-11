@@ -1,0 +1,16 @@
+{% extends "commons.base" %}
+
+{% block content %}
+
+<h2>Registre-se</h2>
+<hr>
+<form role="form" method="POST" enctype="multipart/form-data">
+
+  {% include 'users/form.html'%}
+
+  <div class="box-footer">
+  	{% include 'commons/new_group_buttons.html'%}
+  </div>
+</form>
+
+{% endblock %}

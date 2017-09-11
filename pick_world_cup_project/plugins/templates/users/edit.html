@@ -1,0 +1,16 @@
+{% extends "commons.base" %}
+
+{% block content %}
+
+<h1>Editar Usuário</h1>
+<hr>
+<form role="form" method="POST" enctype="multipart/form-data">
+
+  {% include 'users/form.html'%}
+
+  <div class="box-footer">
+  	{% include 'commons/edit_group_buttons.html'%}
+  </div>
+</form>
+
+{% endblock %}

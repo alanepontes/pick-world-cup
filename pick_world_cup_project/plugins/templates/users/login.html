@@ -1,0 +1,16 @@
+{% extends "commons/base.html" %}
+
+{% block content %}
+
+<h2>Login</h2>
+<hr>
+<form role="form" method="POST" enctype="multipart/form-data">
+
+  {% include 'users/form.html'%}
+
+  <div class="box-footer">
+  	<button type="submit" class="btn btn-success">Login</button
+  </div>
+</form>
+
+{% endblock %}
